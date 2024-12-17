@@ -1,0 +1,828 @@
+/*Device = Most of the Smartphones Mobiles (Galaxi Fold)
+Screen = 279px to 319px
+*/
+@media (min-width: 279px) and (max-width:319px) {
+    .header-area .navbar i {
+        font-size: 14px;
+    }
+    .header-area .navbar-expand-lg .navbar-nav .nav-link {
+        margin: 0;
+        font-size: 14px;
+        padding: 5px 0;
+    }
+    .btn {
+        padding: 5px 8px;
+        font-size: 13px;
+        border-radius: 15px;
+        margin: 10px 0 0;
+    }
+    body{
+        font-size: 12px;
+        line-height: 1.7em;
+    }
+
+    /* Banner Area */
+    .banner-area {
+        padding: 25px 0 0;
+    }
+    .banner-inner{
+        text-align: center;
+    }
+    .banner-inner h1{
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .banner-inner p {
+        padding: 5px 0;
+        width: 100%;
+    }
+    .banner-inner .double-btn{
+        text-align: center;
+    }
+    .banner-inner .double-btn .btn{
+        margin: 0;
+    }
+    .banner-inner .double-btn .btn-boder {
+        font-size: 12px;
+        justify-content: center;
+        margin: 5px 0 15px;
+    }
+
+    /* Alert section */
+    .alert-area {
+        padding: 25px 0;
+    }
+    .alert-area .alert-inner .icon {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .alert-area .alert-inner p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .alert-area .alert-inner i {
+        margin: 0 0 12px;
+        font-size: 12px;
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
+    }
+    .alert-area .modal-header {
+        display: none;
+    }
+
+    /* Service Section */
+    .expert-area {
+        padding: 25px 0;
+    }
+    .section-title{
+        text-align: center;
+    }
+    .section-title h2 {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0 0 10px;
+    }
+    .section-title p {
+        padding: 5px 0;
+        width: 100%;
+    }
+    .expert-area .expert .expert-btn{
+        text-align: center;
+    }
+    .expert-area .expert .expert-btn .btn{
+        margin: 0;
+    }
+    .expert-area .expert .expert-img {
+        text-align: center;
+        margin: 25px 0 15px;
+    }
+    .expert-area .expert .single-expert {
+        margin: 0;
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .expert-area .expert .single-expert h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .expert-area .expert .single-expert p {
+        padding: 0;
+        width: 100%;
+    }
+
+    /* Service Section */
+    .service-area {
+        padding: 25px 0;
+    }
+    .service-area .service{
+        margin: 20px 0;
+        text-align: center;
+    }
+    .service-area .service .single-service{
+        margin: 10px 0;
+    }
+    .service-area .service .single-service h4 {
+        font-size: 18px;
+        line-height: 28px;
+        padding: 15px 0;
+    }
+    .service-area .service .single-service p {
+        padding: 15px 0 5px;
+        width: 100%;
+    }
+    .service-area .service .single-service .service-icon {
+        justify-content: center;
+    }
+
+    /* Reason Area */
+    .reason-area {
+        padding: 0;
+    }
+    .reason-area .reason .section-title{
+        width: 100%;
+    }
+    .reason-area .reason .img-reason{
+        display: none;
+    }
+    .reason-area .reason .single-reason .row {
+        flex-direction: column;
+        display: flex;
+        align-content: center;
+    }
+    .reason-area .reason .reason-right {
+        padding: 35px 0;
+    }
+    .reason-area .reason .section-title p {
+        padding: 10px 0 20px;
+    }
+    .reason-area .reason .single-reason i {
+        margin: 0 5px 0 0;
+    }
+    .reason-area .reason .single-reason p {
+        font-size: 13px;
+        margin: 0 0 10px;
+        width: 200px;
+    }
+
+
+    /* Help section */
+    .help-area{
+        position: static;
+        margin: 0;
+    }
+    .help-area .help {
+        padding: 25px 0;
+    }
+    .help-area .help i {
+        margin: 15px 0;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .help-area .help .section-title h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .help-area .help .section-title p {
+       padding: 0;
+    }
+
+    /* Review Section */
+    .review-area {
+        padding: 35px 0;
+    }
+    .review-area .review .section-title p {
+        padding: 0;
+    }
+    .review-area .review .single-review {
+        padding: 15px;
+        text-align: center;
+        margin: 0px 10px 15px;
+    }
+    .review-area .review .single-review p {
+        width: 100%;
+    }
+    .review-area .review .single-review span {
+        font-size: 12px;
+        line-height: 1.7em;
+        display: block;
+        margin-top: 3px;
+    }
+    .review-area .review .single-review .img-review {
+        margin: 0 0 40px;
+    }
+
+    /* Call-to-Action Section */
+    .call-to-action-area {
+        padding: 25px 0;
+    }
+    .call-to-action-area .call-to-action .cta-title {
+        text-align: center;
+        margin: 0;
+    }
+    .call-to-action-area .call-to-action .cta-btn{
+        text-align: center;
+        margin: 10px 0 0;
+    }
+
+    /* Footer */
+    .footer-area {
+        padding: 35px 0 25px;
+    }
+    .footer-area .footer .footer-left a {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-area .footer .footer-left p {
+        padding: 15px 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-area .footer .footer-left .footer-icon {
+        text-align: center;
+        margin: 0 0 30px;
+    }
+    .footer-area .footer .company-product h6 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+}
+
+/*
+Device = Most of the Smartphones Mobiles (Portrait)
+Screen = 320px to 479px
+*/
+@media (min-width: 319px) and (max-width: 480px) {
+    .header-area .navbar i {
+        font-size: 16px;
+    }
+    .header-area .navbar-expand-lg .navbar-nav .nav-link {
+        margin: 0;
+        font-size: 14px;
+        padding: 5px 0;
+    }
+    .btn {
+        padding: 7px 10px;
+        font-size: 13px;
+        border-radius: 15px;
+        margin: 10px 0 0;
+    }
+    body{
+        font-size: 14px;
+        line-height: 1.7em;
+    }
+
+    /* Banner Section */
+    .banner-area {
+        padding: 35px 0 0;
+    }
+    .banner-inner{
+        text-align: center;
+    }
+    .banner-inner h1 {
+        font-size: 35px;
+        line-height: 1.3em;
+    }
+    .banner-inner p {
+        padding: 5px 0;
+        width: 100%;
+    }
+    .banner-inner .double-btn{
+        text-align: center;
+    }
+    .banner-inner .double-btn .btn{
+        margin: 0;
+    }
+    .banner-inner .double-btn .btn-boder {
+        font-size: 13px;
+        justify-content: center;
+        margin: 10px 0 25px;
+    }
+
+    /* Alert section */
+    .alert-area {
+        padding: 25px 0;
+    }
+    .alert-area .alert-inner .icon {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .alert-area .alert-inner i {
+        margin: 0 0 12px;
+        font-size: 12px;
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
+    }
+    .alert-area .modal-header {
+        display: none;
+    }
+
+    /* Service Section */
+    .expert-area {
+        padding: 35px 0;
+    }
+    .section-title{
+        text-align: center;
+    }
+    .section-title h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin: 0 0 10px;
+    }
+    .section-title p {
+        padding: 10px 0;
+        width: 100%;
+    }
+    .expert-area .expert .expert-btn{
+        text-align: center;
+    }
+    .expert-area .expert .expert-btn .btn{
+        margin: 0;
+    }
+    .expert-area .expert .expert-img {
+        text-align: center;
+        margin: 25px 0 15px;
+    }
+    .expert-area .expert .single-expert {
+        margin: 0;
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .expert-area .expert .single-expert h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .expert-area .expert .single-expert p {
+        padding: 0;
+        width: 100%;
+    }
+
+    /* Service Section */
+    .service-area {
+        padding: 35px 0;
+    }
+    .service-area .service{
+        margin: 20px 0;
+        text-align: center;
+    }
+    .service-area .service .single-service{
+        margin: 10px 0;
+    }
+    .service-area .service .single-service h4 {
+        font-size: 18px;
+        line-height: 28px;
+        padding: 15px 0;
+    }
+    .service-area .service .single-service p {
+        padding: 15px 0 5px;
+        width: 100%;
+    }
+    .service-area .service .single-service .service-icon {
+        justify-content: center;
+    }
+
+    /* Reason Section */
+    .reason-area {
+        padding: 0;
+    }
+    .reason-area .reason .section-title{
+        width: 100%;
+    }
+    .reason-area .reason .img-reason{
+        display: none;
+    }
+    .reason-area .reason .reason-right {
+        padding: 35px 0;
+    }
+    .reason-area .reason .section-title p {
+        padding: 10px 0 20px;
+    }
+    .reason-area .reason .single-reason p {
+        font-size: 13px;
+        margin: 10px 0;
+    }
+
+
+    /* Help section */
+    .help-area{
+        position: static;
+        margin: 0;
+    }
+    .help-area .help {
+        padding: 25px 0;
+    }
+    .help-area .help i {
+        margin: 15px 0;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .help-area .help .section-title h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .help-area .help .section-title p {
+       padding: 0;
+    }
+
+    /* Review Section */
+    .review-area {
+        padding: 35px 0;
+    }
+    .review-area .review .section-title p {
+        padding: 0;
+    }
+    .review-area .review .single-review {
+        padding: 15px;
+        text-align: center;
+        margin: 10px 10px 15px;
+    }
+    .review-area .review .single-review p {
+        width: 100%;
+    }
+    .review-area .review .single-review .img-review {
+        margin: 0 0 40px;
+    }
+
+    /* Call-to-Action Section */
+    .call-to-action-area {
+        padding: 25px 0;
+    }
+    .call-to-action-area .call-to-action .cta-title {
+        text-align: center;
+        margin: 0;
+    }
+    .call-to-action-area .call-to-action .cta-btn{
+        text-align: center;
+        margin: 10px 0 0;
+    }
+
+    /* Footer */
+    .footer-area {
+        padding: 35px 0 25px;
+    }
+    .footer-area .footer .footer-left a {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-area .footer .footer-left p {
+        padding: 15px 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-area .footer .footer-right{
+        margin-left: 70px;
+     }
+    .footer-area .footer .footer-left .footer-icon {
+        text-align: center;
+        margin: 0 0 30px;
+    }
+    .footer-area .footer .company-product h6 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+}
+
+/*
+Device = Low Resolution Tablets, Mobiles (Landscape)
+Screen = 481px to 767px
+*/
+@media (min-width: 480px) and (max-width: 767px) {
+    .header-area .navbar i {
+        font-size: 16px;
+    }
+    .header-area .navbar-expand-lg .navbar-nav .nav-link {
+        margin: 0;
+        font-size: 14px;
+        padding: 5px 0;
+    }
+    .btn {
+        padding: 7px 10px;
+        font-size: 13px;
+        border-radius: 15px;
+        margin: 10px 0 0;
+    }
+    body{
+        font-size: 14px;
+        line-height: 1.7em;
+    }
+
+    /* Banner Area */
+    .banner-area {
+        padding: 40px 0 0;
+    }
+    .banner-inner{
+        text-align: center;
+    }
+    .banner-inner h1 {
+        font-size: 37px;
+        line-height: 1.3em;
+    }
+    .banner-inner p {
+        padding: 5px 0;
+        width: 100%;
+    }
+    .banner-inner .double-btn{
+        text-align: center;
+    }
+    .banner-inner .double-btn .btn{
+        margin: 0;
+    }
+    .banner-inner .double-btn .btn-boder {
+        font-size: 13px;
+        justify-content: center;
+        margin: 10px 0 25px;
+    }
+
+    /* Alert section */
+    .alert-area {
+        padding: 30px 0;
+    }
+    .alert-area .alert-inner .icon {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .alert-area .alert-inner i {
+        margin: 0 0 12px;
+        font-size: 12px;
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
+    }
+    .alert-area .modal-header {
+        display: none;
+    }
+
+
+    /* Service Section */
+    .expert-area {
+        padding: 40px 0;
+    }
+    .section-title{
+        text-align: center;
+    }
+    .section-title h2 {
+        font-size: 27px;
+        line-height: 37px;
+        margin: 0 0 5px;
+    }
+    .section-title p {
+        padding: 15px 0;
+        width: 100%;
+    }
+    .expert-area .expert .expert-btn{
+        text-align: center;
+    }
+    .expert-area .expert .expert-btn .btn{
+        margin: 0;
+    }
+    .expert-area .expert .expert-img {
+        text-align: center;
+        margin: 25px 0 15px;
+    }
+    .expert-area .expert .single-expert {
+        margin: 0;
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .expert-area .expert .single-expert h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .expert-area .expert .single-expert p {
+        padding: 0;
+        width: 100%;
+    }
+
+    /* Service Section */
+    .service-area {
+        padding: 40px 0;
+    }
+    .service-area .service{
+        margin: 25px 0;
+        text-align: center;
+    }
+    .service-area .service .single-service{
+        margin: 15px 0;
+    }
+    .service-area .service .single-service h4 {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 20px 0;
+    }
+    .service-area .service .single-service p {
+        padding: 20px 0 10px;
+        width: 100%;
+    }
+    .service-area .service .single-service .service-icon {
+        justify-content: center;
+    }
+
+    /* Reason Area */
+    .reason-area {
+        padding: 0;
+    }
+    .reason-area .reason .section-title{
+        width: 100%;
+    }
+    .reason-area .reason .img-reason{
+        display: none;
+    }
+    .reason-area .reason .reason-right {
+        padding: 35px 0;
+    }
+    .reason-area .reason .section-title p {
+        padding: 10px 0 20px;
+    }
+    .reason-area .reason .single-reason p {
+        font-size: 13px;
+        margin: 10px 0;
+    }
+
+
+    /* Help section */
+    .help-area{
+        position: static;
+        margin: 0;
+    }
+    .help-area .help {
+        padding: 25px 0;
+    }
+    .help-area .help i {
+        margin: 15px 0;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .help-area .help .section-title h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .help-area .help .section-title p {
+       padding: 0;
+    }
+
+    /* Review Section */
+    .review-area {
+        padding: 35px 0;
+    }
+    .review-area .review .section-title p {
+        padding: 0;
+    }
+    .review-area .review .single-review {
+        padding: 25px;
+        text-align: center;
+        margin: 10px 10px 15px;
+    }
+    .review-area .review .single-review p {
+        width: 100%;
+    }
+    .review-area .review .single-review span {
+        display: block;
+        margin: 5px 0 0;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .review-area .review .single-review .img-review {
+        margin: 0 0 45px;
+    }
+
+    /* Call-to-Action Section */
+    .call-to-action-area {
+        padding: 25px 0;
+    }
+    .call-to-action-area .call-to-action .cta-title {
+        text-align: center;
+        margin: 0;
+    }
+    .call-to-action-area .call-to-action .cta-btn{
+        text-align: center;
+        margin: 10px 0 0;
+    }
+
+    /* Footer */
+    .footer-area {
+        padding: 35px 0 25px;
+    }
+    .footer-area .footer .footer-left a {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-area .footer .footer-left p {
+        padding: 15px 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-area .footer .footer-left .footer-icon {
+        text-align: center;
+        margin: 0 0 30px;
+    }
+    .footer-area .footer .company-product{
+        margin-bottom: 25px;
+    }
+    .footer-area .footer .company-product h6 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+}
+
+/*
+Device = Tablets, Ipads (portrait)
+Screen = 768px to 1024px
+*/
+@media (min-width: 767px) and (max-width: 1024px) {
+    .navbar-expand-md .navbar-nav {
+        align-items: center;
+    }
+    .btn {
+        padding: 10px 13px;
+        font-size: 13px;
+        border-radius: 15px;
+        margin: 0;
+    }
+    .navbar-brand img {
+        vertical-align: text-top;
+    }
+
+    /* Banner */
+    .banner-area {
+        padding: 70px 0;
+    }
+    .banner-inner p {
+        width: 100%;
+    }
+
+    /* Expert Section */
+    .section-title p {
+        padding: 15px 0;
+    }
+    .expert-area .expert-btn{
+        margin-bottom: 10px;
+    }
+
+    /* Reason Section */
+    .reason-area .reason .section-title {
+        width: 100%;
+    }
+    .reason-area .reason .section-title p {
+        padding: 10px 0;
+    }
+    .reason-area .reason .single-reason i {
+        margin: 0 5px 0 0;
+    }
+    .section-title h2 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .reason-area .reason .single-reason p {
+        font-size: 16px;
+        margin: 0 0 5px;
+    }
+
+    /* .reason-area {
+        padding: 0;
+    } */
+
+
+    /* Help Section */  
+    .help-area {
+        position: absolute;
+        margin: -82px 0;
+    }
+    .help-area .help {
+        text-align: center;
+        padding: 0px 0;
+    }
+
+    /* Review Section */
+    .review-area {
+        padding: 240px 0 40px;
+    }
+    .review-area .review .single-review {
+        text-align: center;
+    }
+    .review-area .review .single-review p {
+        width: 100%;
+    }
+    .review-area .review .single-review {
+        padding: 35px 40px;
+        margin: 15px 0;
+    }
+}
